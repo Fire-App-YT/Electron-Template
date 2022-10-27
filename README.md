@@ -8,3 +8,7 @@ A electron-template
 ## Dark Mode
 
 <img src="./screenshot/dark.png"></img>
+
+
+## License
+
