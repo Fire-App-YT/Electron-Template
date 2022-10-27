@@ -1,0 +1,75 @@
+@media (prefers-color-scheme: dark) {
+    body { background: #333; color: white; }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    body { background: rgb(241, 241, 241); color: black; }
+    .titlebar{ background-color: #b6b6b6 !important;color:black !important}
+    .windowControls button{color:black !important}
+    .windowControls button:hover{background-color: #d9d9d9 !important;}
+    .windowControls #quit:hover{background-color: #ff0000 !important;}
+    .sidenav{background-color: rgb(214, 214, 214) !important;color:black !important}
+    .sidenav a{color:black !important}.sidenav a:hover{color:rgb(153, 153, 153) !important}
+  }
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body *{
+    box-sizing: border-box;
+}
+.main{
+    margin-top:20px;
+    font-family: sans-serif;
+}
+.preventSelect{
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+.windowControls{
+    float: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:100px;
+}
+.windowControls button{
+    outline: 0;
+    border: 0;
+    padding: 5px;
+    height:40px;
+    background: none;
+    cursor: pointer !important;
+    color:white ;
+    -webkit-app-region: no-drag;
+}
+.windowControls button:hover{
+    background-color: #48494c;
+}
+.windowControls #quit:hover{
+    background-color: #ff0000;
+}
+.windowTitle{
+    padding: 10px;
+    height: auto;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    
+} 
+.titlebar{
+    background-color: #202327;
+    font-family: 'Montserrat' , sans-serif;
+    color: #FFF;
+    font-size: 10pt;
+    -webkit-app-region: drag;
+    position: fixed;
+    width:100%;
+    top: 0%;
+}
+.container{
+    height:100%;
+    padding:0;
+    display:grid;
+    grid-template-rows: auto 1fr;
+}
