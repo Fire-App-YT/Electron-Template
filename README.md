@@ -11,4 +11,4 @@ A electron-template
 
 
 ## License
-(MIT)[https://github.com/Fire-App-YT/Electron-Template/blob/main/LICENSE]
+[MIT](https://github.com/Fire-App-YT/Electron-Template/blob/main/LICENSE)
